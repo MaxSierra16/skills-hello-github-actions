@@ -7,7 +7,7 @@ jobs:
   armv7:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       # Enable QEMU for multi-arch emulation
       - uses: docker/setup-qemu-action@v3
